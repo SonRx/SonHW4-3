@@ -8,10 +8,10 @@ arg4=$4
 
 function threeAmigos(){	
 	
-	sum=$((arg1+arg2+arg3))
-	echo "sum of the three: $sum"
+	sum=$((arg1+arg2+arg3))	# takes the first three paramaters and adds them.
+	echo "sum of the three: $sum" # prints that sum of three parameters
 
-	./subtractMachine.sh $sum $arg4
+	./subtractMachine.sh $sum $arg4 # sum and arg4 from threeAmigos is the parameters for subtractMachine.sh
 }
 
 echo 1st arg: $1
